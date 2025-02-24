@@ -1,4 +1,4 @@
-// "use client";
+
 import { NextPage } from 'next'
 import Head from 'next/head'
 import { useState, useCallback } from 'react'
@@ -103,7 +103,8 @@ const Page = () => {
       startsAt: '',
       endsAt: '',
     })
-   
+    setSelectedFile(null)
+    setUrl('')
   }
 
   return (
@@ -247,4 +248,3 @@ const Page = () => {
 }
 
 export default Page
-
