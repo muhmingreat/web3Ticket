@@ -27,10 +27,8 @@ const Desktop = () => (
     <Link
       href={'/events/create'}
       className="text-md hover:text-orange-500 duration-300 transition-all"
-      
-    >
-       
-      Create
+      >
+          Create
     </Link>
     <Link
       href={'/events/personal'}
